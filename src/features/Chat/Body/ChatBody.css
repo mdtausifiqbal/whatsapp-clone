@@ -1,0 +1,7 @@
+.chat__body {
+  padding: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(220, 212, 205);
+  flex: 1;  
+}

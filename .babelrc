@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ],
+        "alias": {
+          "@api": "./src/api/",
+          "@assets": "./src/assets/",
+          "@components": "./src/components/",
+          "@data": "./src/data/",
+          "@features": "./src/features/",
+          "@service": "./src/service/",
+          "@utils": "./src/utils/"
+        }
+      }
+    ]
+  ]
+}
