@@ -1,0 +1,5 @@
+[
+  { "id": "@danceRoom", "name": "Dance Room", "isPrivate": false },
+  { "id": "@singerRoom", "name": "Singer Room", "isPrivate": false },
+  { "id": "xyz", "isPrivate": true, "members": ["tausif", "iqbal"] }
+]

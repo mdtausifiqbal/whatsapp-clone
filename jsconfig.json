@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@api/": [
+        "./src/api/"
+      ],
+      "@api/*": [
+        "./src/api/*"
+      ],
+      "@assets/": [
+        "./src/assets/"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/": [
+        "./src/components/"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@data/": [
+        "./src/data/"
+      ],
+      "@data/*": [
+        "./src/data/*"
+      ],
+      "@features/": [
+        "./src/features/"
+      ],
+      "@features/*": [
+        "./src/features/*"
+      ],
+      "@service/": [
+        "./src/service/"
+      ],
+      "@service/*": [
+        "./src/service/*"
+      ],
+      "@utils/": [
+        "./src/utils/"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "**/node_modules"
+  ]
+}

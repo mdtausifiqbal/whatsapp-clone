@@ -1,0 +1,4 @@
+.sidebarChat__archiveIcon {
+  color: var(--app-background-stripe) !important;
+  padding-left: 8px;
+}

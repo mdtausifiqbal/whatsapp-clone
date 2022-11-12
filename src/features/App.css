@@ -1,0 +1,61 @@
+@import "./variables.css";
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  background-color: #dadbd3;
+  overflow: auto;
+  position: relative;
+  top: 0;
+  z-index: 0;
+}
+
+.app::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 127px;
+  background-color: var(--app-background-stripe);
+  z-index: 1;
+  top: 0;
+}
+
+.app__body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  overflow: auto;
+  margin: 0 auto;
+  background-color: var(--panel-header-background);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1441px) {
+  .app__body {
+    width: calc(100% - 38px);
+    height: calc(100% - 38px);
+    top: 19px;
+    max-width: 1600px;
+  }
+}
